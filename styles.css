@@ -1,7 +1,13 @@
+*{
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif
+}
+
 .nav {
   background: orange;
-  border: black;
+  border: 1px solid black;
   text-align: left;
+  margin-top: 10px;
 }
 .mainContent {
   border: 1px solid black ;
@@ -30,3 +36,46 @@
   width: 100%;
 }
 
+.icon{
+   width: 35px;
+   height: 35px;
+   background-color: white;
+   padding: 1px;
+   display: inline-block;
+}
+
+div.navbar.img.banner{
+  background: center;
+
+
+}
+
+/*colors*/
+
+body {
+background-color: #D4C1AB;
+text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar a {
+/* list-style: none;*/
+ color: black;
+ display: inline-block;
+ border-right: 1px solid black;
+ padding-right: 4px;
+ padding-top: 0px;
+ margin: 1px;
+}
+
+.navbar a:last-child {
+ border-right:none;
+}
+
+.footer {
+  background-color: orange;
+  border: 1px solid black;
+}
