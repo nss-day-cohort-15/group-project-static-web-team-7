@@ -1,0 +1,32 @@
+.nav {
+  background: orange;
+  border: black;
+  text-align: left;
+}
+.mainContent {
+  border: 1px solid black ;
+  align-content: center;
+  padding-top: 10px;
+  height: 30%;
+}
+
+.product {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid black;
+  width: 28%;
+  margin: .5rem;
+  padding:1rem;
+}
+
+.product h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.product-image {
+  text-align: center;
+  width: 100%;
+}
+
